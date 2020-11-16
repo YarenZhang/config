@@ -1,0 +1,18 @@
+[color]
+	ui = auto
+[user]
+	name = YarenZhang
+	email = hhxjzyr@gmail.com
+[core]
+	editor = vim
+[filter "lfs"]
+	required = true
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	clean = git-lfs clean -- %f
+[alias]
+	unstage = reset HEAD --
+[credential]
+	helper = osxkeychain
+[http]
+	postBuffer = 524288000

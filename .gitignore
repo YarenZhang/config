@@ -1,0 +1,62 @@
+# 去除无需备份的大型文件、文件夹（包括子目录下的）
+
+File_Yaren/
+02Codes/
+*.mov
+*.mp4
+Applications/
+Desktop/
+Documents/
+Downloads/
+GitConfig/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+anaconda/
+centosCodeLab/
+
+
+
+# 将当前目录下和当前目录的所有子目录下点开头的文件去掉，但是不能
+# 不包括.gitignore 等文件
+
+.*
+!.gitignore
+!.gitconfig
+!.git-credentials
+!.git-credentials
+
+# 去除已经有远程备份的子 git repo
+DNTG/
+docker_odoo/
+Odoo_GXQ/
+*Dropbox*
+
+
+# 去除所有临时文件，包括子目录中的
+
+~*
+/07PhD_HUST/Projects/流形项目/code/
+vgg16_keras_remote/
+vgg19_manifold/
+random_weights/
+deep-goggle/
+vlfeat-0.9.20/
+matconvnet/
+anaconda3
+/ml_m_trans/
+go
+/MATLAB-for-Machine-Learning/
+/07PhD_HUST/Projects/styleTransfer/neural-style/
+/07PhD_HUST/Projects/manifold/densenet-tensorflow/
+/07PhD_HUST/Projects/manifold/vision_networks/
+/PHD_PROPOSAL/
+/07PhD_HUST/Projects/styleTransfer/
+tensorflow
+/tensorpack/
+code_and_data
+handson-ml/
+/transformer/
+/hdwolf_agora/
